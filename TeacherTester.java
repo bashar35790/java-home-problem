@@ -1,14 +1,14 @@
 public class TeacherTester {
     public static void main(String[] args){
         Teacher teacher1;
+        Teacher teacher2;
         teacher1 = new Teacher();
-        teacher1.name = "John";
-        teacher1.gender = "Male";
-        teacher1.phoneNumber = 1234567890;
+        teacher2 = new Teacher();
+        teacher1.setInfo("John", "Male", 1234567890);
+        teacher2.setInfo("Jane", "Female", 987654321);
 
-        System.out.println("Teacher Name: " + teacher1.name);
-        System.out.println("Teacher Gender: " + teacher1.gender);
-        System.out.println("Teacher Phone Number: " + teacher1.phoneNumber);
+        teacher1.getInfo();
+        teacher2.getInfo();
 
     }
 }
