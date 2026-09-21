@@ -1,8 +1,13 @@
 public class Teacher extends Persion {
-    String qualification;
+    // getName(), setName(), getAge(), setAge() methods are inherited from Persion class
+    private String qualification;
 
-    void displayInfo2(){
-        displayInfo(); // Call the parent class method
-        System.out.println("Qualification: " + qualification);
+    public String getQualification() {
+        return qualification;
     }
+    public void setQualification(String qualification) {
+        this.qualification = qualification;
+    }
+    
+   
 }
