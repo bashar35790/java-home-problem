@@ -1,0 +1,8 @@
+Inside int version
+Result 1: 10
+Inside double version
+Result 2: 6.0
+Inside mixed version
+Result 3: 7.5
+Inside mixed version
+Result 4: 0.0
